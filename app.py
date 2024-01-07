@@ -8,6 +8,13 @@ from sqlalchemy import ForeignKey
 from sqlalchemy.orm import relationship
 from werkzeug.security import generate_password_hash, check_password_hash
 
+import logging
+
+# Set up logging
+logging.basicConfig(filename='app.log', level=logging.INFO,
+                    format='%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
+
+
 app = Flask(__name__)
 
 app.config['SECRET_KEY'] = '70efba9dd09069540fb7ee09'
