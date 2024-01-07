@@ -1,0 +1,76 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="9">
+            <item index="0" class="java.lang.String" itemvalue="opencv-python-headless" />
+            <item index="1" class="java.lang.String" itemvalue="openai" />
+            <item index="2" class="java.lang.String" itemvalue="fastapi" />
+            <item index="3" class="java.lang.String" itemvalue="starlette" />
+            <item index="4" class="java.lang.String" itemvalue="uvicorn" />
+            <item index="5" class="java.lang.String" itemvalue="python-jose" />
+            <item index="6" class="java.lang.String" itemvalue="MarkupSafe" />
+            <item index="7" class="java.lang.String" itemvalue="werkzeug" />
+            <item index="8" class="java.lang.String" itemvalue="decouple" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E225" />
+          <option value="E402" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+          <option value="N806" />
+          <option value="N802" />
+          <option value="N812" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStringFormatInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnboundLocalVariableInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="str.unlink" />
+          <option value="uvsudo" />
+          <option value="main.icorn" />
+          <option value="app.opencv" />
+          <option value="fastapi.requests.get" />
+          <option value="package_name.__version__" />
+          <option value="list.loc" />
+          <option value="turtle.pendown.read_excel" />
+          <option value="turtle.pendown.read_csv" />
+          <option value="security.verify_key" />
+          <option value="transcription.speechsdk" />
+          <option value="urllib.*" />
+          <option value="jwt.ExpiredSignatureError" />
+          <option value="main.token_required" />
+          <option value="main.flask_jwt_extended" />
+          <option value="main.flask_sqlalchemy" />
+          <option value="main.auth_blueprint" />
+          <option value="flask.app.run" />
+          <option value="flask.app.Flask.before_first_request" />
+          <option value="main.create_app" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
